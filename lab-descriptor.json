@@ -1,141 +1,84 @@
 {
-  "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
-  },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
+    "broadArea": {
+        "name": "Electrical Engineering",
+        "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
+        "code": "EE"
     },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
+    "lab": "Project and System Engineering and Management - II",
+    "lab_display_name": "Project and System Engineering and Management - II",
+    "phase": "3-ext",
+    "collegeName": "COEP",
+    "baseUrl": "psem2-coep.vlabs.ac.in",
+    "introduction": "Welcome to the Project and System Engineering and Management - II lab developed at COEPTECH. This laboratory focuses on the project engineering processes—both pre-engineering and post-engineering—typically handled by instrumentation engineers during plant commissioning. The lab emphasises key aspects such as sensor selection, calibration, installation procedures, and the precautions necessary when deploying sensors in real-world environments.<br>It reflects the typical responsibilities of an instrumentation engineer, particularly those involved in consultancy roles. The documentation covered includes P&ID diagrams, instrument index sheets, specification sheets, hook-up diagrams, pre-commissioning records, and maintenance documentation. Designed to strengthen the engineering skills necessary for efficient project execution, this lab provides valuable training for students entering the field. The sensor calibration lab setup replicates a real-world calibration facility, ensuring accurate and realistic simulations.",
+    "experiments": [
         {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
+            "name": "Design and develop a P & ID for Flow sensors calibration set-up",
+            "short-name": "pid-flow",
+            "repo": "https://github.com/virtual-labs/exp-pid-flow-coep",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
+            "name": "Design and develop a P & ID for Level sensors calibration set-up",
+            "short-name": "pid-level",
+            "repo": "https://github.com/virtual-labs/exp-pid-level-coep",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
+            "name": "Design and develop a P & ID for Pressure and Vacuum sensors calibration set-up",
+            "short-name": "pid-pressure-vacuum",
+            "repo": "https://github.com/virtual-labs/exp-pid-pressure-vaccum-coep",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
+            "name": "Design and develop a P & ID for Temperature sensors calibration set-up",
+            "short-name": "pid-temperature",
+            "repo": "https://github.com/virtual-labs/exp-pid-temperature-sensors-coep",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
+            "name": "Develop an Instrument Index sheet",
+            "short-name": "instrument-index",
+            "repo": "https://github.com/virtual-labs/exp-instrument-index-coep",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Develop Specification sheets for given instruments for a calibration lab",
+            "short-name": "specification-sheets",
+            "repo": "https://github.com/virtual-labs/exp-specification-sheets-coep",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Develop Hook up drawings (Control valve, Thermowell, orifice plate, DPT, etc)",
+            "short-name": "hook-up-drawing",
+            "repo": "https://github.com/virtual-labs/exp-hook-drawing-coep",
+            "tag": "v1.0.0",
+            "deploy": true
         }
-      ]
-    }
-  ],
-  "targetAudience": {
-    "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
     ],
-    "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
-    ]
-  },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
-  "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
-    "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
-    ]
-
- 
+    "targetAudience": {
+        "UG": [
+            "UG (3rd Year) 6th Semester, UG (4th Year), 7th Semester"
+        ],
+        "PG": [
+            ""
+        ]
+    },
+    "objective": "<ul><li>Understand various sensors and their installation and calibration requirements</li><li>Develop various documents required to complete the project</li><li>Identify the importance of documents and their interrelations</li><li>Develop the skill of working in a team to complete the project within specified limits</li><li>Apply national and international standards and recommended practices</li>",
+    "courseAlignment": {
+        "description": "The syllabi of this lab aligns to the following universities in India.",
+        "universities": [
+            "Savitribai Phule Pune University, Pune, Maharashtra",
+            "Sant Gadge Baba Amravati University, Amravati, Maharashtra",
+            "University of Mumbai, Mumbai, Maharashtra",
+            "Kavyitri Bahinabai North Maharashtra University, Jalgaon, Maharashtra",
+            "Swami Ramanand Teerth Marathwada University, Nanded, Maharashtra",
+            "Visvesvaraya Technological University (VTU), Belgaum, Karnataka"
+        ]
+    }
 }
