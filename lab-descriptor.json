@@ -11,55 +11,97 @@
     "baseUrl": "psem2-coep.vlabs.ac.in",
     "introduction": "Welcome to the Project and System Engineering and Management - II lab developed at COEPTECH. This laboratory focuses on the project engineering processes—both pre-engineering and post-engineering—typically handled by instrumentation engineers during plant commissioning. The lab emphasises key aspects such as sensor selection, calibration, installation procedures, and the precautions necessary when deploying sensors in real-world environments.<br>It reflects the typical responsibilities of an instrumentation engineer, particularly those involved in consultancy roles. The documentation covered includes P&ID diagrams, instrument index sheets, specification sheets, hook-up diagrams, pre-commissioning records, and maintenance documentation. Designed to strengthen the engineering skills necessary for efficient project execution, this lab provides valuable training for students entering the field. The sensor calibration lab setup replicates a real-world calibration facility, ensuring accurate and realistic simulations.",
     "experiments": [
-        {
-            "name": "Design and develop a P & ID for Flow sensors calibration set-up",
-            "short-name": "pid-flow",
-            "repo": "https://github.com/virtual-labs/exp-pid-flow-coep",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Design and develop a P & ID for Level sensors calibration set-up",
-            "short-name": "pid-level",
-            "repo": "https://github.com/virtual-labs/exp-pid-level-coep",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Design and develop a P & ID for Pressure and Vacuum sensors calibration set-up",
-            "short-name": "pid-pressure-vacuum",
-            "repo": "https://github.com/virtual-labs/exp-pid-pressure-vaccum-coep",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Design and develop a P & ID for Temperature sensors calibration set-up",
-            "short-name": "pid-temperature",
-            "repo": "https://github.com/virtual-labs/exp-pid-temperature-sensors-coep",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Develop an Instrument Index sheet",
-            "short-name": "instrument-index",
-            "repo": "https://github.com/virtual-labs/exp-instrument-index-coep",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Develop Specification sheets for given instruments for a calibration lab",
-            "short-name": "specification-sheets",
-            "repo": "https://github.com/virtual-labs/exp-specification-sheets-coep",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Develop Hook up drawings (Control valve, Thermowell, orifice plate, DPT, etc)",
-            "short-name": "hook-up-drawing",
-            "repo": "https://github.com/virtual-labs/exp-hook-drawing-coep",
-            "tag": "v1.0.0",
-            "deploy": true
-        }
+  {
+    "name": "Design and develop a P & ID for Flow sensors calibration set-up",
+    "short-name": "pid-flow",
+    "repo": "https://github.com/virtual-labs/exp-pid-flow-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Design and develop a P & ID for Level sensors calibration set-up",
+    "short-name": "pid-level",
+    "repo": "https://github.com/virtual-labs/exp-pid-level-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Design and develop a P & ID for Pressure and Vacuum sensors calibration set-up",
+    "short-name": "pid-pressure-vacuum",
+    "repo": "https://github.com/virtual-labs/exp-pid-pressure-vaccum-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Design and develop a P & ID for Temperature sensors calibration set-up",
+    "short-name": "pid-temperature",
+    "repo": "https://github.com/virtual-labs/exp-pid-temperature-sensors-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Develop an Instrument Index sheet",
+    "short-name": "instrument-index",
+    "repo": "https://github.com/virtual-labs/exp-instrument-index-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Develop Specification sheets for given instruments for a calibration lab",
+    "short-name": "specification-sheets",
+    "repo": "https://github.com/virtual-labs/exp-specification-sheets-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Develop Hook up drawings (Control valve, Thermowell, orifice plate, DPT, etc)",
+    "short-name": "hook-up-drawing",
+    "repo": "https://github.com/virtual-labs/exp-hook-drawing-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Interpret GA drawings for a process plant",
+    "short-name": "ga-drawings-interpretation",
+    "repo": "https://github.com/virtual-labs/exp-ga-interpret-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Create Loop Wiring Diagram for a specific project",
+    "short-name": "loop-wiring-diagram",
+    "repo": "https://github.com/virtual-labs/exp-loop-wiring-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Develop GA and mimic diagram of a control panel",
+    "short-name": "ga-mimic-diagram",
+    "repo": "https://github.com/virtual-labs/exp-ga-mimic-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "To learn procedure to perform pre-commissioning activities",
+    "short-name": "precommissioning-procedure",
+    "repo": "https://github.com/virtual-labs/exp-precom-proced-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Develop a fault-finding and maintenance schedule for a process plant",
+    "short-name": "fault-maintenance-schedule",
+    "repo": "https://github.com/virtual-labs/exp-fault-schedule-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Interpret the event and alarm diagram for the smooth running of a plant",
+    "short-name": "event-alarm-diagram",
+    "repo": "https://github.com/virtual-labs/exp-alarms-diag-coep",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
     ],
     "targetAudience": {
         "UG": [
