@@ -22,7 +22,7 @@
     "name": "Design and develop a P & ID for Level sensors calibration set-up",
     "short-name": "pid-level",
     "repo": "https://github.com/virtual-labs/exp-pid-level-coep",
-    "tag": "v1.0.0",
+    "tag": "v1.1.0",
     "deploy": true
   },
   {
@@ -36,7 +36,7 @@
     "name": "Design and develop a P & ID for Temperature sensors calibration set-up",
     "short-name": "pid-temperature",
     "repo": "https://github.com/virtual-labs/exp-pid-temperature-sensors-coep",
-    "tag": "v1.0.0",
+    "tag": "v1.1.0",
     "deploy": true
   },
   {
@@ -57,7 +57,7 @@
     "name": "Develop Hook up drawings (Control valve, Thermowell, orifice plate, DPT, etc)",
     "short-name": "hook-up-drawing",
     "repo": "https://github.com/virtual-labs/exp-hook-drawing-coep",
-    "tag": "v1.0.0",
+    "tag": "v1.1.0",
     "deploy": true
   },
   {
@@ -71,7 +71,7 @@
     "name": "Create Loop Wiring Diagram for a specific project",
     "short-name": "loop-wiring-diagram",
     "repo": "https://github.com/virtual-labs/exp-loop-wiring-coep",
-    "tag": "v1.0.0",
+    "tag": "v1.1.0",
     "deploy": true
   },
   {
