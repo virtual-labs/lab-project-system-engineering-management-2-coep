@@ -29,14 +29,14 @@
     "name": "Design and develop a P & ID for Pressure and Vacuum sensors calibration set-up",
     "short-name": "pid-pressure-vacuum",
     "repo": "https://github.com/virtual-labs/exp-pid-pressure-vaccum-coep",
-    "tag": "v1.0.0",
+    "tag": "v1.1.0",
     "deploy": true
   },
   {
     "name": "Design and develop a P & ID for Temperature sensors calibration set-up",
     "short-name": "pid-temperature",
     "repo": "https://github.com/virtual-labs/exp-pid-temperature-sensors-coep",
-    "tag": "v1.1.0",
+    "tag": "v1.0.0",
     "deploy": true
   },
   {
